@@ -133,6 +133,11 @@ python visualise.py
 - Poison reverse as a loop-prevention technique
 - Split horizon, hold-down timers (discussed in analysis)
 
+## 👤 Author
+
+Miguel Veloso  
+[GitHub](https://github.com/VelosoMiguel) · [LinkedIn](https://www.linkedin.com/in/miguel-veloso-91355b372/)
+
 ---
 
 ## References
