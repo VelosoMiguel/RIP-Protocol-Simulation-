@@ -24,7 +24,7 @@ D ——— C
 
 Each link costs 1 hop. Routers start knowing only themselves (0 hops) and direct neighbours (1 hop). All other destinations begin as unreachable (∞ = 16).
 
-![Topology](images/topology.png)
+![Topology](topology.png)
 
 ---
 
@@ -45,7 +45,7 @@ This is the core of RIP — routers iteratively discover shorter paths until no 
 
 On a square topology, full convergence is achieved in **1 round**. After Round 1, all routers know the optimal (minimum-hop) path to every destination.
 
-![Convergence Heatmap](images/convergence_heatmap.png)
+![Convergence Heatmap](convergence_heatmap.png)
 
 | Round | What happened |
 |-------|--------------|
@@ -57,7 +57,7 @@ On a square topology, full convergence is achieved in **1 round**. After Round 1
 
 After the A–B link goes down, the remaining topology is B–C–D–A (a chain).
 
-![Failure Topology](images/topology_failure.png)
+![Failure Topology](topology_failure.png)
 
 **Without Poison Reverse** — Count-to-Infinity problem:
 - B loses its direct route to A
@@ -70,7 +70,7 @@ After the A–B link goes down, the remaining topology is B–C–D–A (a chain
 - This immediately breaks the loop
 - Convergence is fast and clean
 
-![Count to Infinity](images/count_to_infinity.png)
+![Count to Infinity](count_to_infinity.png)
 
 ---
 
