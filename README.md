@@ -80,11 +80,10 @@ After the A–B link goes down, the remaining topology is B–C–D–A (a chain
 rip-simulation/
 ├── rip_simulation.py   # Core simulation — Bellman-Ford, routing tables, scenarios
 ├── visualise.py        # Generates all plots (requires matplotlib, networkx)
-├── images/
-│   ├── topology.png
-│   ├── topology_failure.png
-│   ├── convergence_heatmap.png
-│   └── count_to_infinity.png
+├── topology.png
+│── topology_failure.png
+│── convergence_heatmap.png
+│── count_to_infinity.png
 └── README.md
 ```
 
